@@ -19,3 +19,5 @@ Para melhor compreensão do nosso proeto, segue abaixo o diagrama de blocos e o 
 
 
 ![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/ImgDiagramBlocos.PNG)
+
+![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/ImgFluxograma.PNG)

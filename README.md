@@ -15,7 +15,7 @@ Este projeto será desenvolvido com os seguintes equipamentos:
 
 - Demais componentes: placa protoboard, resistores de 1k e de 10k, fios e cabos jumpers diversos.
 
-Para melhor compreensão do nosso proeto, segue abaixo o diagrama de blocos e o fluxograma do mesmo.
+Para melhor compreensão do nosso projeto, segue abaixo o diagrama de blocos e o fluxograma do mesmo.
 
 
 ![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/ImgDiagramBlocos.PNG)

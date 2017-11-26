@@ -21,3 +21,9 @@ Para melhor compreensão do nosso projeto, segue abaixo o diagrama de blocos e o
 ![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/ImgDiagramBlocos.PNG)
 
 ![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/ImgFluxograma.PNG)
+
+•	Implementação:
+
+Nesta tarefa foi feito primeiramente o estudo do que se propunha realizar, ou seja, entender como cada elemento do sistema funciona e a partir daí esboçar o seu funcionamento, Dessa forma, fizemos primeiramente simulações no tinkercard circuits, as quais foram realizadas de forma gradativa, ou seja, primeiro fizemos o esboço para um led e um ldr, depois para um ldr e dois leds e assim por diante até fazermos as simulações com o módulo bluetooth.
+Observe abaixo a descrição de cada componente o exemplo de seu funcionamento:
+

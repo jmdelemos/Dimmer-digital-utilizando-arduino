@@ -27,3 +27,10 @@ Para melhor compreensão do nosso projeto, segue abaixo o diagrama de blocos e o
 Nesta tarefa foi feito primeiramente o estudo do que se propunha realizar, ou seja, entender como cada elemento do sistema funciona e a partir daí esboçar o seu funcionamento, Dessa forma, fizemos primeiramente simulações no tinkercard circuits, as quais foram realizadas de forma gradativa, ou seja, primeiro fizemos o esboço para um led e um ldr, depois para um ldr e dois leds e assim por diante até fazermos as simulações com o módulo bluetooth.
 Observe abaixo a descrição de cada componente o exemplo de seu funcionamento:
 
+- Arduíno Uno:
+
+Arduíno: é o controlador do projeto, ele é quem fornece a energia de 5v alimentando os sensores e os leds. O Arduíno possui entradas analógicas e saídas digitais com PWM e a programação do projeto é passado do computador para o arduíno por meio de uma entrada USB.
+
+![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/Arduino_UNO.jpg)
+
+- Led e Ldr:

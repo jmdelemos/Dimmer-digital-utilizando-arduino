@@ -41,5 +41,10 @@ Neste projeto será possível fazer o controle de luminosidade via celular (app 
 
 - Led e LDR:
 
-![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/download.jpg)
+O LDR é um resistor dependente de luz constituído a partir de materiais semicondutores que permitem a variação de sua resistência elétrica em milhares de Ohms. Ele representa o sensor do nosso projeto e quando submetido a luz a sua resistência aumenta e quanto mais escuro, sua resistência diminui, ou seja, ele é quem vai fazer o controle da tensão que vai para os leds, permitindo o controle da intensidade do brilho dos mesmos.
+
+Um led consiste em um diodo emissor de luz que, para funcionar corretamente (emitir luz), deve ser polarizado de forma direta e ser associado a uma resistência para obter uma queda de tensão, a qual limite a corrente que passa por ele. Sendo assim, associado a uma porta pwm, este componente funciona recebendo pulsos com variações de valores entre 0 a 255 bits, que, em escala de volts vai de 0 a 5v.
+Com isso, podemos observar uma variação na intensidade do brilho deste componente.
+
+![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/download.jpg)                        ![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/LED.jpg)
 

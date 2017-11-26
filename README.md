@@ -33,4 +33,8 @@ Arduíno: é o controlador do projeto, ele é quem fornece a energia de 5v alime
 
 ![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/Arduino_UNO.jpg)
 
-- Led e Ldr:
+- Modulo Bluetooth:
+
+Neste projeto será possível fazer o controle de luminosidade via celular (app Mobile), com isso, esse modulo fará essa comunicação entre o arduíno e o celular.
+
+![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/HC05.jpg)

@@ -48,3 +48,10 @@ Com isso, podemos observar uma variação na intensidade do brilho deste compone
 
 ![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/download.jpg)                        ![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/LED.jpg)
 
+•	Conclusão:
+
+O Dimmer vem se tornando um dispositivo cada vez mais presente no nosso cotidiano, com este projeto pôde-se concluir que o mesmo já é bastante acessível, podendo gerar uma elevada economia em indústrias e residências; ainda permitindo que o ambiente possa ser mais confortável para as pessoas presentes nele. Além da relativa facilidade de utilização, a integração dele com outros dispositivos é bastante prática, o que facilita a aceitação de mercado.
+Uma das maiores dificuldades encontradas é a vinculação do dispositivo com o ambiente no qual ele está inserido, onde será necessária uma análise dos pontos de sol, pontos de sombra e de qual será o tipo desse ambiente (sala de aula, escritório, cozinha, ...), o que gera alteração em sua configuração. Em decorrência dessas dificuldades, a taxa de variação da resposta do LDR varia de ambiente para ambiente, gerando uma leitura diferente, ou seja, cada um desses ambientes deve ser tratado de forma diferente.
+Ainda assim, o projeto se mostrou viável e, com o desenvolvimento necessário, pode atingir níveis de leitura ainda mais precisos e com um maior controle de variação.
+
+

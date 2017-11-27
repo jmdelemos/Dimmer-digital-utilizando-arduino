@@ -50,6 +50,10 @@ Kd é o ganho derivativo
 
 Essa ação derivativa corrigi o erro antecipadamente, diminuindo o tempo de resposta e melhorando a instabilidade do sistema.
 
+O diagrama que exemplifica a malha fechada do projeto nos atuadores 1 e 2 envolvendo o controle PID é:
+
+![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/Diagrama_Bloco_Malha_1.PNG)
+
 Para melhor compreensão do nosso projeto, segue abaixo o diagrama de blocos e o fluxograma do mesmo.
 
 

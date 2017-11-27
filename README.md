@@ -38,7 +38,17 @@ Isaída = Ki*integral do erro(Com limetes de 0 a t)
 
 Ki é ganho integral
 
-Essa ação integral corrigi o valor da variavel manipulado em intervalos regulares, que é chamado de tempo integral. Esse tempo integral é o inverso do ganho proporcional.
+Essa ação integral corrigi o valor da variavel manipulado em intervalos regulares, que é chamado de tempo integral. Esse tempo integral é o inverso do ganho proporcional. Se o ganho integral for baixo, o sistema pode levar muito tempo para atingir o valor da referência. Se o ganho integral for muito alto, o sistema pode acabar se tornando instável.
+
+-Derivativo:
+
+A ação derivativa é produz 8um sinal de saída que é proporcional a velocidade de variação do erro. A equação que representa esse controle derivativo é:
+
+Dsaída = Kd*de(t)/dt
+
+Kd é o ganho derivativo
+
+Essa ação derivativa corrigi o erro antecipadamente, diminuindo o tempo de resposta e melhorando a instabilidade do sistema.
 
 Para melhor compreensão do nosso projeto, segue abaixo o diagrama de blocos e o fluxograma do mesmo.
 

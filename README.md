@@ -15,6 +15,9 @@ Este projeto será desenvolvido com os seguintes equipamentos:
 
 - Demais componentes: placa protoboard, resistores de 1k e de 10k, fios e cabos jumpers diversos.
 
+Inicialmente, apesar de usarmos LDRs e um microntrolador arduino, o controle do dimmer foi feito utilizando apenas os valores lidos diretamente por cada LDr, valores nos o quais foram convertidos numa escala de 8 bits. Além disso, nesse primeiro momento, também foi utilizado como alternativa um controle via bluetooth, ou seja, um controle em malha aberta.
+Posteriormente, visando melhorias no controle deste dispositivo, alteramos o controle da malha fechada utilizando controle PID. Primeiramente implementamos um código para controlar proporcionalmente, feito isso adicionamos o controle integral e por último adicionamos a parcela derivativa.
+
 Para melhor compreensão do nosso projeto, segue abaixo o diagrama de blocos e o fluxograma do mesmo.
 
 

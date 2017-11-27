@@ -18,6 +18,28 @@ Este projeto será desenvolvido com os seguintes equipamentos:
 Inicialmente, apesar de usarmos LDRs e um microntrolador arduino, o controle do dimmer foi feito utilizando apenas os valores lidos diretamente por cada LDr, valores nos o quais foram convertidos numa escala de 8 bits. Além disso, nesse primeiro momento, também foi utilizado como alternativa um controle via bluetooth, ou seja, um controle em malha aberta.
 Posteriormente, visando melhorias no controle deste dispositivo, alteramos o controle da malha fechada utilizando controle PID. Primeiramente implementamos um código para controlar proporcionalmente, feito isso adicionamos o controle integral e por último adicionamos a parcela derivativa.
 
+-Proporcional:
+
+Essa ação proporcional produz um sinal de saída que é proporcional a amplitude do erro. A equação que representa esse controle proporcional é:
+
+Psaída = Kp*e(t)
+
+Onde:
+Kp é a constante de proporcionalidade
+e(t) é o erro
+
+Uma das vantagens de utilizar esse tipo de controlador é eliminar ocilações do sinal que chega até a saída. O valor de saída é inversamnete proporcional ao ganho Kp e pode ser compensado aplicando o controle integral. Se o ganho proporcional for muito alto o sinal do erro tambem será alto,com issol, pode acabar desestabilizando o sistema. Se o ganho proporcional for baixo, o sistema vai falhar na aplicação para corrigir o problema.
+
+-Integral:
+
+A ação integral produz um sinal de saída que é proporcional a magnitude e a duração do erro,ou seja, o erro acumulado. Isso fornece uma nova alternativa para corrigir o erro mais rapidamente e de forma mais precisa do que a ação proporcional. A equação que representa esse controle integral é:
+
+Isaída = Ki*integral do erro(Com limetes de 0 a t)
+
+Ki é ganho integral
+
+Essa ação integral corrigi o valor da variavel manipulado em intervalos regulares, que é chamado de tempo integral. Esse tempo integral é o inverso do ganho proporcional.
+
 Para melhor compreensão do nosso projeto, segue abaixo o diagrama de blocos e o fluxograma do mesmo.
 
 

@@ -54,6 +54,7 @@ O Dimmer vem se tornando um dispositivo cada vez mais presente no nosso cotidian
 Uma das maiores dificuldades encontradas é a vinculação do dispositivo com o ambiente no qual ele está inserido, onde será necessária uma análise dos pontos de sol, pontos de sombra e de qual será o tipo desse ambiente (sala de aula, escritório, cozinha, ...), o que gera alteração em sua configuração. Em decorrência dessas dificuldades, a taxa de variação da resposta do LDR varia de ambiente para ambiente, gerando uma leitura diferente, ou seja, cada um desses ambientes deve ser tratado de forma diferente.
 Ainda assim, o projeto se mostrou viável e, com o desenvolvimento necessário, pode atingir níveis de leitura ainda mais precisos e com um maior controle de variação.
 
+**Melhorias no controle do sistema
 
 Inicialmente, apesar de usarmos LDRs e um microntrolador arduino, o controle do dimmer foi feito utilizando apenas os valores lidos diretamente por cada LDr, valores nos o quais foram convertidos numa escala de 8 bits. Além disso, nesse primeiro momento, também foi utilizado como alternativa um controle via bluetooth, ou seja, um controle em malha aberta.
 Posteriormente, visando melhorias no controle deste dispositivo, alteramos o controle da malha fechada utilizando controle PID. Primeiramente implementamos um código para controlar proporcionalmente, feito isso adicionamos o controle integral e por último adicionamos a parcela derivativa.

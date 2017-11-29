@@ -1,5 +1,5 @@
 # Dimmer-digital-utilizando-arduino
-Elaboração de um dimmer digital utilizando arduino, LDR1s
+Elaboração de um dimmer digital utilizando arduino, LDR1s, módulo bluetooh, controle em malha aberta, controle em malha fechada (coom e sem PID), etc.
 
 O dimmer digital é um dispositivo que altera a intensidade luminosa em ambientes de acordo com a incidência de luz local, sendo este controle, portanto, de suma importância na iluminação residencial tornando o ambiente mais versátil e agradável, além disso, é um bom aparelho para ter uma redução no desperdício de energia elétrica.
 Neste projeto iremos mostrar o passo a passo da como é feita a implementação deste dispositivo, a partir de componentes eletrônicos básicos, módulo bluetooth e um micro controlador. 
@@ -98,6 +98,13 @@ O diagrama que exemplifica a malha fechada do projeto nos atuadores 1 e 2 envolv
 O diagrama que exemplifica a malha fechada do projeto nos atuadores 3 e 4 envolvendo o controle PID é:
 
 ![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/Diagrama_Bloco_Malha_2.PNG)
+
+Os códigos de cada etapa de desenvolvimento deste projeto encontram-se mais acima na parta Codigos_LDR_DIMMER.zip, onde:
+projetoLDR_Bluetooth.ino é o código em malha fechada, mas sem controle PID e com controle alternativo via bluetooth (malha aberta);
+projLDR_P.ino é o código com contole P e sem controle alternativo via bluetooth;
+projLDR_PD.ino é o código com controle PD e sem controle alternativo via bluetooth ;
+projLDR_PID.ino é o código com controle PID e sem controle alternativo via bluetooth;
+projLDR_PID_Bluetooth.ino é o código com controle PID e com controle alternativo via bluetooth.
 
 **Obsevaçõe quanto ao controle PID:
 Com o controle PID visamos minimizar o erro proporcionalmente, eliminar o mesmo integralmente e antecipá-lo através da derivada do erro com relação ao tempo.

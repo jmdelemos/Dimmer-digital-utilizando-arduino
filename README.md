@@ -125,7 +125,9 @@ O derivativo veio por amortecer, porém sem alterção visualmente significativa
 
 Oberve abaixo o modelo matemático para o controle PID:
 ![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/Algoritimo_PID.PNG)
+
 Onde:
+
  • Kp - É o ganho proporcional; 
   
  • Ki -É o ganho integral; 

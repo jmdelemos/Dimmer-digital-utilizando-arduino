@@ -99,7 +99,7 @@ O diagrama que exemplifica a malha fechada do projeto nos atuadores 3 e 4 envolv
 
 ![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/Diagrama_Bloco_Malha_2.PNG)
 
-Os códigos de cada etapa de desenvolvimento deste projeto encontram-se mais acima na pasta Codigos_LDR_DIMMER.zip, onde:
+Os códigos de cada etapa de desenvolvimento deste projeto encontram-se mais acima na pasta Codigos_LDR_DIMMER.rar, onde:
 
 • projetoLDR_Bluetooth.ino é o código em malha fechada, mas sem controle PID e com controle alternativo via bluetooth (malha aberta);
 

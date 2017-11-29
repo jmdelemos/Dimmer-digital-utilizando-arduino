@@ -99,12 +99,17 @@ O diagrama que exemplifica a malha fechada do projeto nos atuadores 3 e 4 envolv
 
 ![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/Diagrama_Bloco_Malha_2.PNG)
 
-Os códigos de cada etapa de desenvolvimento deste projeto encontram-se mais acima na parta Codigos_LDR_DIMMER.zip, onde:
-projetoLDR_Bluetooth.ino é o código em malha fechada, mas sem controle PID e com controle alternativo via bluetooth (malha aberta);
-projLDR_P.ino é o código com contole P e sem controle alternativo via bluetooth;
-projLDR_PD.ino é o código com controle PD e sem controle alternativo via bluetooth ;
-projLDR_PID.ino é o código com controle PID e sem controle alternativo via bluetooth;
-projLDR_PID_Bluetooth.ino é o código com controle PID e com controle alternativo via bluetooth.
+Os códigos de cada etapa de desenvolvimento deste projeto encontram-se mais acima na pasta Codigos_LDR_DIMMER.zip, onde:
+
+• projetoLDR_Bluetooth.ino é o código em malha fechada, mas sem controle PID e com controle alternativo via bluetooth (malha aberta);
+
+• projLDR_P.ino é o código com contole P e sem controle alternativo via bluetooth;
+
+• projLDR_PD.ino é o código com controle PD e sem controle alternativo via bluetooth;
+
+• projLDR_PID.ino é o código com controle PID e sem controle alternativo via bluetooth;
+
+• projLDR_PID_Bluetooth.ino é o código com controle PID e com controle alternativo via bluetooth.
 
 **Obsevaçõe quanto ao controle PID:
 Com o controle PID visamos minimizar o erro proporcionalmente, eliminar o mesmo integralmente e antecipá-lo através da derivada do erro com relação ao tempo.
@@ -121,12 +126,17 @@ O derivativo veio por amortecer, porém sem alterção visualmente significativa
 Oberve abaixo o modelo matemático para o controle PID:
 ![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/Algoritimo_PID.PNG)
 Onde:
-  Kp - É o ganho proporcional; 
-  Ki -É o ganho integral; 
-  Kd - É o ganho derivativo; 
-  e - É o erro (diferença entre valormmedido e valor desejado); 
-  t - É o tempo; 
-  T - Tempo de integração.
+ • Kp - É o ganho proporcional; 
+  
+ • Ki -É o ganho integral; 
+  
+ • Kd - É o ganho derivativo; 
+  
+ • e - É o erro (diferença entre valormmedido e valor desejado); 
+  
+ • t - É o tempo; 
+  
+ • T - Tempo de integração.
 
 
 

@@ -83,7 +83,7 @@ Essa ação integral corrigi o valor da variavel manipulado em intervalos regula
 
 -Derivativo:
 
-A ação derivativa é produz 8um sinal de saída que é proporcional a velocidade de variação do erro. A equação que representa esse controle derivativo é:
+A ação derivativa produz um sinal de saída que é proporcional a velocidade de variação do erro. A equação que representa esse controle derivativo é:
 
 Dsaída = Kd*de(t)/dt
 
@@ -98,4 +98,28 @@ O diagrama que exemplifica a malha fechada do projeto nos atuadores 1 e 2 envolv
 O diagrama que exemplifica a malha fechada do projeto nos atuadores 3 e 4 envolvendo o controle PID é:
 
 ![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/Diagrama_Bloco_Malha_2.PNG)
+
+**Obsevaçõe quanto ao controle PID:
+Com o controle PID visamos minimizar o erro proporcionalmente, eliminar o mesmo integralmente e antecipá-lo através da derivada do erro com relação ao tempo.
+
+Contole prropocional:
+Com a adição deste controle, notamos que as oscilações foram sanadas. Porém as alterações no brilho dos Leds continou "grosseira", ou seja, continuaram aumentando e diminuindo o brilho muito rápido.  
+
+Controle PI:
+Com a adição da parte integrativa, podemos observar uma suavização na mudança de luminosidde dos Leds.
+
+Contole PID:
+O derivativo veio por amortecer, porém sem alterção visualmente significativa.
+
+Oberve abaixo o modelo matemático para o controle PID:
+![alt text](https://github.com/jmdelemos/Dimmer-digital-utilizando-arduino/blob/master/Algoritimo_PID.PNG)
+Onde:
+  Kp - É o ganho proporcional
+  Ki -É o ganho integral
+  Kd - É o ganho derivativo
+  e - É o erro (diferença entre valormmedido e valor desejado)
+  t - É o tempo
+  T - Tempo de integração
+
+
 
